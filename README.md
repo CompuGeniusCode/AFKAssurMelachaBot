@@ -35,11 +35,10 @@ Automatic AFK replies when a specific user is pinged during **assur melacha** ti
 
 ---
 
-## Example reply
+## Bot in Action
 
-```
-@YourName is offline until Saturday, October 18, 2025 7:45 PM and will respond to all messages then.
-```
+<img width="4320" height="2340" alt="image" src="https://github.com/user-attachments/assets/85e55528-5329-45f3-9d83-0c1ed873c4a6" />
+
 
 (Internally uses `discord.utils.format_dt(end_utc, style='F')`.)
 
