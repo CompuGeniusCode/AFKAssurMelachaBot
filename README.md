@@ -54,7 +54,7 @@ Automatic AFK replies when a specific user is pinged during **assur melacha** ti
 Install:
 
 ```bash
-python -m pip install -U discord.py zmanim
+python -m pip install -U -r requirements.txt
 ```
 
 ---
