@@ -102,12 +102,6 @@ async def on_message(message: discord.Message):
     if message.author.bot:
         return
 
-    if message.author.id == USER_ID:
-        now = datetime.now(ZoneInfo(TIMEZONE))
-        is_assur, end_local, is_last_day = _assur_calc(now)
-        if is_assur and is_last_day and end_local:
-            _set_assur_override(end_local)
-
     user = await bot.fetch_user(USER_ID)
     if not user:
         return
